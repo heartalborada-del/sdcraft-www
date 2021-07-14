@@ -1,0 +1,20 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/paper"
+	},
+	"overrides": [
+		{
+			"predicate": {
+			  "custom_model_data": 0
+			},
+			"model": "item/paper"
+		},
+		{
+			"predicate": {
+			  "custom_model_data": 1
+			},
+			"model": "genshin:item/yuanshi"
+		}
+	]
+}
