@@ -1,26 +1,20 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "item/paper"
+		"layer0": "item/purple_dye"
 	},
 	"overrides": [
 		{
 			"predicate": {
 			  "custom_model_data": 0
 			},
-			"model": "item/paper"
+			"model": "item/purple_dye"
 		},
 		{
 			"predicate": {
 			  "custom_model_data": 1
 			},
-			"model": "genshin:item/yuanshi"
-		},
-		{
-			"predicate": {
-			  "custom_model_data": 2
-			},
-			"model": "genshin:item/mola"
+			"model": "genshin:item/jiuchanzhiyuan"
 		}
 	]
 }
